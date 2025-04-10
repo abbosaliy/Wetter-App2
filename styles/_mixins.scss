@@ -1,0 +1,5 @@
+@mixin phoneScreens() {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
